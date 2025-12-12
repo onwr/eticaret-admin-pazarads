@@ -1,0 +1,5 @@
+{
+  "name": "E-Commerce Admin Dashboard",
+  "description": "A comprehensive admin dashboard for managing products, orders, domains, and users based on the specified data schema.",
+  "requestFramePermissions": []
+}
