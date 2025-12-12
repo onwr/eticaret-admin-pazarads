@@ -1,0 +1,16 @@
+lib/api-public.ts(151,13): error TS2353: Object literal may only specify known properties, and 'referrer' does not exist in type 'OrderFormData & { ipAddress?: string; userAgent?: string; variantSelection?: string; }'.
+lib/api.ts(591,3): error TS2739: Type '{ totalRevenue: any; totalOrders: any; pendingOrders: any; approvedOrders: number; activeProducts: number; }' is missing the following properties from type 'DashboardStats': current, previous, performance, today, lastOrders
+lib/api.ts(592,29): error TS2339: Property 'today' does not exist on type '{ current: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; previous: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; performance: { ...; }; ... 6 more ...; lastOrders: { ...; }[]; }'.
+lib/api.ts(593,28): error TS2339: Property 'today' does not exist on type '{ current: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; previous: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; performance: { ...; }; ... 6 more ...; lastOrders: { ...; }[]; }'.
+lib/api.ts(594,30): error TS2339: Property 'today' does not exist on type '{ current: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; previous: { revenue: number; orders: number; aov: number; pending: number; delivered: number; }; performance: { ...; }; ... 6 more ...; lastOrders: { ...; }[]; }'.
+pages/Notifications.tsx(64,48): error TS2339: Property 'map' does not exist on type 'unknown'.
+pages/reports/AgentReports.tsx(39,9): error TS17001: JSX elements cannot have multiple attributes with the same name.
+pages/reports/FinanceReports.tsx(35,13): error TS17001: JSX elements cannot have multiple attributes with the same name.
+pages/settings/ExportTemplates.tsx(19,10): error TS2451: Cannot redeclare block-scoped variable 'isModalOpen'.
+pages/settings/ExportTemplates.tsx(19,23): error TS2451: Cannot redeclare block-scoped variable 'setIsModalOpen'.
+pages/settings/ExportTemplates.tsx(20,10): error TS2451: Cannot redeclare block-scoped variable 'isModalOpen'.
+pages/settings/ExportTemplates.tsx(20,23): error TS2451: Cannot redeclare block-scoped variable 'setIsModalOpen'.
+types.ts(401,3): error TS2300: Duplicate identifier 'landingPage'.
+types.ts(402,3): error TS2300: Duplicate identifier 'landingPage'.
+types.ts(496,13): error TS2567: Enum declarations can only merge with namespace or other enum declarations.
+types.ts(535,18): error TS2567: Enum declarations can only merge with namespace or other enum declarations.
